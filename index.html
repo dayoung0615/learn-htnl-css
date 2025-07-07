@@ -4,26 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML 실습</title>
+    <!-- <style>
+      a {
+        color: white;
+      }
+    </style> -->
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
-        dolore? Quae pariatur, aspernatur magni sint beatae ex dolorum eius
-        quidem. Totam similique officia magnam nemo soluta voluptatem neque
-        provident accusamus veritatis asperiores mollitia temporibus, iste
-        placeat, accusantium velit sunt dolorum? Laudantium accusamus a ipsam
-        quis perferendis quibusdam accusantium consectetur iure neque nisi sunt
-        tempore culpa nam non eum, odit officiis blanditiis inventore minus
-        earum sed velit tenetur error. Atque beatae necessitatibus illum
-        architecto culpa sit eum id itaque corrupti facere illo ipsam quidem,
-        in, est placeat. Esse doloremque iste eaque provident fugiat repellat
-        rerum est accusamus. Tempore, esse. Vel, excepturi.
-      </p>
-      <a href="https://www.naver.com/" target="_blank"> 네이버 바로가기 </a>
-    </div>
-    <div>
-      <a href="">구글 바로가기</a>
+    <div style="background-color: blue; color: white">
+      <div></div>
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
+          dolore?
+        </p>
+        <a href="https://www.naver.com/" target="_blank"> 네이버 바로가기 </a>
+      </div>
+      <div>
+        <a href="">구글 바로가기</a>
+      </div>
     </div>
     <!-- 텍스트 태그 -->
     <div style="border: 1px solid red">
@@ -32,10 +32,10 @@
       <p>
         Lorem ipsum
         <strong>dolor</strong> sit amet consectetur adipisicing elit.
-        <span style="color: red">Quidem</span>
+        <span style="color: red" class="span_t">Quidem</span>
         nihil odio hic repudiandae iure qui aperiam, reiciendis nesciunt,
-        architecto facilis alias voluptates eos <br />quos doloremque expedita
-        praesentium obcaecati repellat commodi?
+        architecto <span class="span_t"> alias voluptates</span> eos <br />quos
+        doloremque expedita praesentium obcaecati repellat commodi?
       </p>
       <br />
       <span> 안녕</span>
@@ -84,7 +84,7 @@
         <span>password</span>
         <input type="password" />
       </div>
-      <div style="border: 1px red">
+      <div style="border: 1px red" id="radiobox">
         <p>라디오버튼</p>
         <input type="radio" name="gender" value="male" id="male" />
         <label for="male">남성</label>
