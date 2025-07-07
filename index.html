@@ -9,9 +9,19 @@
         color: white;
       }
     </style> -->
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./style/styles.css" />
   </head>
   <body>
+    <div class="parent">
+      부모입니다
+      <div class="children">
+        자식입니다.
+        <div class="children-children">자손입니다</div>
+      </div>
+      <div class="children"></div>
+    </div>
+    <div class="parent2">부모입니다</div>
+    <div class="parent3">부모입니다</div>
     <div style="background-color: blue; color: white">
       <div></div>
       <div>
@@ -120,6 +130,9 @@
         <option value="031">경기</option>
         <option value="051">부산</option>
       </select>
+      <!-- 제출버튼 -->
+      <!-- <input type="submit" value="서류제출" /> -->
+      <button type="submit" class="submit_button">서류제출용</button>
     </form>
   </body>
 </html>
