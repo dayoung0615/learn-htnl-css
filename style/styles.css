@@ -1,5 +1,5 @@
 /* landing.css */
-@import url("/reset.css");
+@import url("/style/resst.css");
 
 form {
   border: 2px dotted gray;
@@ -59,4 +59,15 @@ div {
 /* 가상 선택자(hover) */
 .submit_button:hover {
   background-color: hotpink;
+}
+
+.box {
+  width: 200px;
+  height: 250px;
+  background-color: #596275;
+}
+
+p {
+  color: cornflowerblue;
+  font-size: 1.5em;
 }
